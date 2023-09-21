@@ -108,6 +108,6 @@ void opcontrol() {
     	int right = power - turn;
 		Leftsidedrive.move(left);
     	Rightsidedrive.move(right);
-		pros::delay(5);
+		pros::delay(10);
 	}
 }
