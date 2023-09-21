@@ -74,7 +74,7 @@ void autonomous() {
 	// lookahead distance: 15 inches
 	chassis.follow("offside match1.txt", 2000, 15);
 	Intake.move_velocity(600);
-  	pros::delay(1000); // Move at 100 RPM for 1 second
+  	pros::delay(1000); // Move at 600 RPM for 1 second
   	Intake.move_velocity(0);
 	chassis.follow("offside match2.txt", 2000, 15);
 	chassis.follow("offside match3.txt", 2000, 15);
