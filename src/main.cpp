@@ -108,10 +108,6 @@ void opcontrol() {
     	int right = power - turn;
 		Leftsidedrive.move(left);
     	Rightsidedrive.move(right);
-
-		// Rightsidedrive.move_velocity(master.get_analog(ANALOG_LEFT_Y) + (master.get_analog(ANALOG_RIGHT_X)*-1));
-
-
-		pros::delay(20);
+		pros::delay(5);
 	}
 }
